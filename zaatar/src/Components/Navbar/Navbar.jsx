@@ -1,6 +1,9 @@
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({backgroundImage}) => {
+  const navbarStyle = backgroundImage
+    ? { backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
+    : { backgroundColor: 'white' };
   return (
    
     <div >
