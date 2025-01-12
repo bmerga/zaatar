@@ -1,5 +1,6 @@
 // import React from 'react'
 import Navbar from './Components/NAvbar/Navbar'
+import SandalCollection from './Pages/Zaatar/Hero/SandalCollection/SandalCollection'
 import Zaatar from './Pages/Zaatar/Hero/Zaatar'
 import NewIn from './Pages/Zaatar/Newin/NewIn'
 
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Zaatar />
       <NewIn />
+      <SandalCollection />
     </div>
   )
 }

@@ -10,10 +10,14 @@ function NewIn() {
       <div >
       <p className='newin'> NEW IN</p>
       <div className="newin-container">
-        <img src={imageUrlNewIn} alt="Zaatar-NewIn" className="zaatar-newinimage" />
-        <img src={imageUrlNewIn2} alt='Zaatar-NewIn2' className='zaatar-newinimage2'/>
-        <img src={imageUrlNewIn3} alt='Zaatar-NewIn3' className='zaatar-newinimage3'/>
-        <img src={imageUrlNewIn4} alt='Zaatar-NewIn4' className='zaatar-newinimage4'/>
+        <div className='cooper-sandal'><img src={imageUrlNewIn} alt="Zaatar-NewIn" className="zaatar-newinimage" />
+         Cooper Sandal</div>
+         <div className='richard-flat'><img src={imageUrlNewIn2} alt='Zaatar-NewIn2' className='zaatar-newinimage2'/>
+         Richard Flat</div>
+         <div className='benny-sandal'><img src={imageUrlNewIn3} alt='Zaatar-NewIn3' className='zaatar-newinimage3'/>
+         Benny Sandal</div>
+         <div className='billy-heel'> <img src={imageUrlNewIn4} alt='Zaatar-NewIn4' className='zaatar-newinimage4'/>
+          Billy Heel</div>
       </div>
       
     </div>

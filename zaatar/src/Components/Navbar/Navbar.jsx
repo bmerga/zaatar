@@ -1,15 +1,15 @@
 import './Navbar.css'
 
-const Navbar = ({backgroundImage}) => {
-  const navbarStyle = backgroundImage
-    ? { backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
-    : { backgroundColor: 'white' };
+const Navbar = () => {
+  // const navbarStyle = backgroundImage
+  //   ? { backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }
+  //   : { backgroundColor: 'white' };
   return (
    
     <div >
-       <div className='nav-top'> Sign up today for free shipping & 15% off </div>
+       {/* <div className='nav-top'> Sign up today for free shipping & 15% off </div> */}
        <div className='navbar'> 
-       <nav> ZAATAR </nav>
+       <div className='zaatar'> ZAATAR </div>
         <ul className='nav-menu'>
           <li>SHOP</li>
           <li>ABOUT</li>
